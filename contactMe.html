@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>My Contact Details </h1>
+    <p>1606 Selkirk St</p>
+    <p>210-848-4032</p>
+    <p>mariosnhz8382@gmail.com</p>
+
+<hr>
+<!-- We use the form tag to define what should go into the form
+  we need the label and the input
+  input type for text sets it to be able to type. Submit is a textbox
+  for the type we can do numerous things
+-->
+<!-- action where it takes you
+mailto makes it to where the action will send an email to the one
+specified in the code
+enctype so it doesnt have additional charecters when sending message
+-->
+    <form  action="mailto:mariosnhz8382@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name: </label>
+      <input type="text" name="Name:" value=""><br>
+
+      <label>Your Email:</label>
+      <input type="email" name="Email:" value=""><br>
+
+      <label>Your Message: </label><br>
+      <textarea name="Message:" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="" >
+
+    </form>
+
+  </body>
+</html>
+
+<!--
+  <label>Password: </label>
+  <input type="password" name="" value="">
+-->
